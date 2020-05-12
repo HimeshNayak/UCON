@@ -1,6 +1,8 @@
 # UCON
 ## UCON – yoU are Connected On Network
 
+![Header Image](https://github.com/HimeshNayak/UCON/blob/master/headerImage.png)
+
 ## Brief description about the Project 
 This software is an offline social networking software. Different users can use the software locally on one system, by creating their accounts in the software.  
 
