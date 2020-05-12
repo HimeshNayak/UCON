@@ -3,7 +3,8 @@
 // Code Last Compiled on 13 June, 2018
 // Code Developed By : Himesh Nayak, XIIA, JKPS
 
-#include<fstream.h>
+#include<iostream>
+#include<fstream>
 #include<conio.h>
 #include<ctype.h>
 #include<string.h>
@@ -17,17 +18,19 @@
 #include"classes.h"
 #include"filefunc.h"
 
-void main()
+using namespace std;
+
+int main()
 {  
 	int ch;
 	do {
 		logoAnimation();
-	    cout<<"Press 1 to Login\n";
+	        cout<<"Press 1 to Login\n";
 		cout<<"Press 2 to Signup with UCON\n";
 		cout<<"Press 0 to Exit\n";
 		cout<<"Enter your Choice : ";
 		cin>>ch;
-	    if (ch == 1)
+	        if (ch == 1)
 		{
 			char user[25], pass[20];
 			cout<<"\n\nEnter Username : ";
@@ -60,4 +63,5 @@ void main()
 			continue;
 		}
 	}while(ch!=0);
+	return 0;
 }
